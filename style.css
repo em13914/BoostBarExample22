@@ -1,0 +1,41 @@
+/* the 100vh and 100vw set the size of the body to fill the viewport (screen) */
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  margin: 0;
+}
+/* this class specifies shape */
+.col {
+  display: flex;
+  height: 100%;
+  width: 50%;
+}
+/* COMPARED TO ITS PARENT, the div fills up the height and takes up half the width */
+.bar {
+  width: 100%;
+}
+.center-bottom {
+  justify-content: center;
+  align-items: flex-end;
+  display: flex;
+}
+/* these classes specify color */
+.black {
+  background-color: #000000;
+}
+.pink {
+  background-color: #eb5674;
+}
+.yellow {
+  background-color: #fbee40;
+}
+.orange {
+  background-color: #fd5632;
+}
+.grey {
+  background-color: #d3d3d3;
+}
+.dark-grey {
+  background-color: #a9a9a9;
+}
